@@ -1,16 +1,8 @@
-"use client";
-import React, { useState } from 'react'
+import React from 'react'
 
 const page = () => {
-  const [task,setTask]=useState()
   return (
-    <div>
-         <h1>To Do List</h1>
-         <form>
-           <input type="text" placeholder="Add task" onChange={()=>setTask(e.target.value)} />
-           <button type="submit">Add</button>
-         </form>
-    </div>
+    <div>page</div>
   )
 }
 

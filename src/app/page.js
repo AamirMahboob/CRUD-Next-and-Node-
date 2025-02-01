@@ -1,8 +1,14 @@
+"use client"
+import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Link href="/contact" >
+        Contact us
+      </Link>
+    </div>
   )
 }
 
